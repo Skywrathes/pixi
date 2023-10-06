@@ -1,0 +1,138 @@
+{
+	"frames": {
+		"fox1.png": {
+			"frame": {
+				"x": 1,
+				"y": 1,
+				"w": 484,
+				"h": 484
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 484,
+				"h": 484
+			},
+			"sourceSize": {
+				"w": 484,
+				"h": 484
+			}
+		},
+		"fox2.png": {
+			"frame": {
+				"x": 487,
+				"y": 1,
+				"w": 484,
+				"h": 484
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 484,
+				"h": 484
+			},
+			"sourceSize": {
+				"w": 484,
+				"h": 484
+			}
+		},
+		"fox3.png": {
+			"frame": {
+				"x": 1,
+				"y": 487,
+				"w": 484,
+				"h": 484
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 484,
+				"h": 484
+			},
+			"sourceSize": {
+				"w": 484,
+				"h": 484
+			}
+		},
+		"fox4.png": {
+			"frame": {
+				"x": 487,
+				"y": 487,
+				"w": 484,
+				"h": 484
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 484,
+				"h": 484
+			},
+			"sourceSize": {
+				"w": 484,
+				"h": 484
+			}
+		},
+		"fox5.png": {
+			"frame": {
+				"x": 973,
+				"y": 1,
+				"w": 484,
+				"h": 484
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 484,
+				"h": 484
+			},
+			"sourceSize": {
+				"w": 484,
+				"h": 484
+			}
+		},
+		"fox6.png": {
+			"frame": {
+				"x": 973,
+				"y": 487,
+				"w": 484,
+				"h": 484
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 484,
+				"h": 484
+			},
+			"sourceSize": {
+				"w": 484,
+				"h": 484
+			}
+		}
+	},
+	"meta": {
+		"app": "http://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"image": "fox.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 1458,
+			"h": 972
+		},
+		"scale": "1"
+	},
+	"animations": {
+		"run": ["fox1.png","fox2.png","fox3.png","fox4.png","fox5.png","fox6.png"]
+	}
+}
