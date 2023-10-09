@@ -39,6 +39,7 @@ async function loadAssets() {
 			docEl.requestFullscreen();
 		}
 		app.renderer.resize(window.innerWidth, window.innerHeight);
+		game.setBackgroundSize()
 	}
 	window.addEventListener('touchstart', fullscreenMobile);
 }

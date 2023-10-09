@@ -15,7 +15,12 @@ export class Background extends Container {
     this.addChild(this.view);
   }
 
-  // setMobileSize(): void {
-  //   this.view.width = window.innerWidth;
-  // }
+  setMobileSize(): void {
+    if (window.innerHeight > window.innerWidth) {
+      this.view.height = window.innerHeight;
+    } else {
+      this.view.width = window.innerWidth;
+    }
+
+  }
 }
