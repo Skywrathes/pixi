@@ -35,9 +35,9 @@ class Game{
     this.fox.y = (screenHeight - this.fox.height) / 2;
   }
 
-  setBackgroundSize() {
-    this.background.setMobileSize();
-  }
+  // setBackgroundSize() {
+  //   this.background.setMobileSize();
+  // }
 
   update(): void {
     this.centerFox();

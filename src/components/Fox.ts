@@ -1,5 +1,6 @@
 import { AnimatedSprite, Application, Container } from "pixi.js";
 import AssetsGame from "./AssetsGame";
+import { animationSpeed } from "../../gameConfig";
 
 export class Fox extends Container {
   private assets: AssetsGame;
@@ -17,7 +18,7 @@ export class Fox extends Container {
     // const view = new Sprite(this.assets.getTexture("fox1.png"))
     this.view = new AnimatedSprite(this.assets.getAnimation("run"))
     if (this.view.textures.length > 0) {
-      this.view.animationSpeed = 0.25;
+      this.view.animationSpeed = animationSpeed;
       this.view.play();
     } else {
       console.error("No textures available for animation");
